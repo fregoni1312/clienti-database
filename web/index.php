@@ -5,7 +5,7 @@
    $fp = fopen($file , "w");
    fputs($fp , "$visite[0]");
    fclose($fp);
-   $ciao=10;
+   $ciao=20;
    $ciao++;
 echo $ciao;
    echo "    Hai effetuato  $visite[0] visite a questo sito.";
