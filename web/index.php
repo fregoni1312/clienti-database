@@ -9,7 +9,7 @@ if (!$cook)$contador ++; // // se non esiste il cookie incremento i visitatori
 // Creo archivio contatore. Será con la 1ª visita
 touch($archivo);
 chmod($archivo, 0755);
-$conta= 10; // Valor por defecto si no existe fichero de visitas
+$conta= 1; // Valor por defecto si no existe fichero de visitas
 }
 
 // Grabamos cookie de 1 hora de duracion
