@@ -3,7 +3,7 @@ $archivo = "conta.txt"; // Archivo il numero di visitatori
 if(file_exists($archivo)){
 $conta = file_get_contents($archivo);
 $cook = $_COOKIE[‘cooki’]; // leggiamo il cookie
-if (!$cook)$contador ++; // // se non esiste il cookie incremento i visitatori
+if (!$cook)$conta ++; // // se non esiste il cookie incremento i visitatori
 
 }else{
 // Creo archivio contatore. Será con la 1ª visita
