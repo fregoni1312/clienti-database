@@ -3,8 +3,8 @@
    $visite = file($file);
    $ciao=$visite+1;
    $fp = fopen($file , "w");
-   //fputs($file , "$visite[0]");
-   file_put_contents($file, $ciao); // solo PHP 5!!!
+   fputs($file , "$ciao");
+  // file_put_contents($file, $ciao); // solo PHP 5!!!
    fclose($fp);
   
     echo $ciao;
