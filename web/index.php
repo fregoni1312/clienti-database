@@ -11,7 +11,7 @@ fclose($fp);
 $fp = fopen($archivo,"w+"); 
 fwrite($fp, $contador, 26); 
 fclose($fp); 
-
-echo "Esta página ha sido visitada $contador veces"; 
+echo $contador
+echo "\n\nEsta página ha sido visitada $contador veces"; 
 ?> 
 
