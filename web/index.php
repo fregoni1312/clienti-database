@@ -1,12 +1,12 @@
 <?php
    $file = ("conta.txt");
    $visite = file($file);
-   echo "visite vale: $visite[0] \n";
+   echo "visite vale: $visite[0]                      ";
    $ciao=$visite[0]+1;
-   echo "ciao vale: $ciao ";
+   echo "ciao vale: $ciao                             ";
    $fp = fopen($file , "w");
-   fputs($file , "$ciao");
-  //// file_put_contents($file, $ciao); // solo PHP 5!!!
+   ////fputs($file , "$ciao");
+   file_put_contents($file, $ciao); // solo PHP 5!!!
    fclose($fp);
  
     //echo $ciao;
