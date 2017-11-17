@@ -2,8 +2,8 @@
    $file = ("conta.txt");
    $visite = file($file);
    $visite[0]++;
-   $fp = fopen($file , "w");
-   fputs($fp , "$visite[0]");
+   //$fp = fopen($file , "w");
+   fputs($file , "$visite[0]");
    fclose($fp);
    $ciao=20;
    $ciao++;
