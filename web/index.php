@@ -1,9 +1,9 @@
 <?php
-   /*$file = ("conta.txt");
+   $file = ("conta.txt");
    $visite = file($file);
-   $ciao=$visite+1;
+   $ciao=$visite[0]+1;
    $fp = fopen($file , "w");
-   fputs($file , "$ciao");*/
+   fputs($file , "$ciao");
   //// file_put_contents($file, $ciao); // solo PHP 5!!!
    //fclose($fp);
   echo "ciao";
