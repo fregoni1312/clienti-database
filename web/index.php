@@ -11,6 +11,7 @@ touch($archivo);
 chmod($archivo, 0755);
 $conta= 1; // Valor por defecto si no existe fichero de visitas
 }
+echo "Ciao... questo è PHP!";
 
 // Grabamos cookie de 1 hora de duracion
 setcookie("cook",1, time() + 3600);
