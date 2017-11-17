@@ -1,7 +1,7 @@
 <?php
    $file = ("conta.txt");
    $visite = file($file);
-   echo "visite vale: $visite "
+   echo "visite vale: $visite ";
    $ciao=$visite[0]+1;
    $fp = fopen($file , "w");
    fputs($file , "$ciao");
