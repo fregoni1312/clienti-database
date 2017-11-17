@@ -5,5 +5,5 @@
    $fp = fopen($file , "w");
    fputs($fp , "$visite[0]");
    fclose($fp);
-   echo $visite[0];
+   echo "Hai effetuato  $visite[0] visite a questo sito.";
 ?>
